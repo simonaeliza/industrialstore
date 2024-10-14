@@ -50,3 +50,31 @@ body {
 .bg-white {
     background-color: white;
 }
+.nav-links a {
+    background-color: var(--dark-color);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.card {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 1px solid lightgray;
+    padding-top: 30px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card button {
+    width: 200px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-transform: uppercase;
+}
