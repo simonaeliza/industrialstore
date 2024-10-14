@@ -1,6 +1,7 @@
 :root {
     --primary-color:#FFF6E9;
-    --dark-color:#0D9276;
+    --dark-color:#40A2E3;
+    --button-color:#0D9276;
 }
 
 
@@ -65,16 +66,21 @@ body {
     width: 200px;
     border: 1px solid lightgray;
     padding-top: 30px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .card img {
-    width: 150px;
+    width: 200px;
+    height: 125px;
 }
 
 .card button {
     width: 200px;
-    color: white;
-    background-color: black;
+    color:white;
+    background-color:var(--button-color);
     padding: 10px;
     text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
 }
